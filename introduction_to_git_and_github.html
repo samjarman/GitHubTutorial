@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Introduction to Git and GitHub</title>
+
+</head>
+<body>
+<h1>Introduction to Git and GitHub</h1>
+
+<h2>Presented by UC CompSoc</h2>
+
+<p>NB: This is designed to be a self directed learning experience. Below are topics to get you started.</p>
+
+<hr>
+
+
+<h4>What is Source Control and Why should I use it?</h4>
+
+<p>Source control is an important software engineering process whereby code is stored in many incremental changes. This allows for back ups, rollbacks, patches, branching, forking and sharing code.</p>
+
+<p>These features give you incredible power as a team of developer or even as a solo developer. The tools give you power over your code base like you've never had before.</p>
+
+<p><a href="http://git-scm.com/">Git</a>, is a <a href="http://en.wikipedia.org/wiki/Distributed_revision_control">distributed version control system</a> and is probaly the most polular implementations to date. The other most well known and well used one is <a href="http://mercurial.selenic.com/">Mercurial</a>.</p>
+
+<p>Git and Mercurial are known as distributed (we'll cover what this means later on) compared to centralised systems, such as SVN, which you may have heard of.</p>
+
+<h4>Concepts of Git</h4>
+
+<p>The concepts of Git are similar to those of Mercurial and SVN. The first concept to learn is that of a <em>repository</em>. <em>Repositories</em> are simply folders on your computer with a bit of extra information added to them. In these reposistories, goes your code, assets, or whatever you like! The second is that of <em>server</em>. The server maintains its own copy of the reposistory, and you can send or get back code from the server.</p>
+
+<p>Moving code back and to a server is important, but first I'll explain how you get your code in the repository. Once your code is added, you can make what is called a <em>commit</em>. A <em>commit</em> is a change in code. Each commit has an author, a time, a unique identifier, and what code it changed. This may also include file deletions or additions. What is neat about a commit, is that it doesn't make a copy of the new file (as you might if you were doing your own system by making many files called CODE-OLD, CODE-OLD-2, CODE-OLD-3), instead it stores only the changes. At any point in time, you can go back to a commit and the system itself will create the file at that point by doing the reverse of the commits before it to that file. Neato!</p>
+
+<p>So that's repositories and commits. Now, how do we get out code to the server? After a commit, we can do what is called a push. Pushes allow us to put the changes from our repository to the server. Pulls, do the opposite, they bring code from the server to your computer. Question: What happens if the code on the server changes since the last time you pulled before you push?</p>
+
+<p>Other concepts in git include branching, basing, tagging, etc. You'll learn more <a href="https://try.github.io/levels/1/challenges/1">in the git tutorial hosted by GitHub</a>. This should take you about 15-20 minutes, come back here once you're done</p>
+
+<hr> 
+
+
+<h4>What is GitHub?</h4>
+
+<p>By now you should be familiar with the fact that Git  requires a server to share code between people. Where do I get a server? Well, GitHub is that server (and much more!!!).</p>
+
+<h4>Getting started on GitHub.</h4>
+
+<p>Go to <a href="https://education.github.com/discount_requests/new">here</a> to sign up for an account. Select student, Individual account. Sign up with your <code>abc123@uclive.ac.nz</code> or <code>first.last@canterbury.ac.nz</code> account, which CompSoc has <a href="https://github.com/leereilly/swot/pull/50">organised to be whitelisted for you</a>.</p>
+
+<p>At this point, come tell us your Github username and we'll give you a free GitHub sticker of your choosing.</p>
+
+<p>After that, go <a href="https://guides.github.com/">here</a> to start learning more!</p>
+
+<p>Tonight we'd like to see you do the following</p>
+
+<pre><code>* Create a repository
+* Comit a small project, in any language (This could be simple as hello world in Python)
+* Share the repository
+* Accept a pull request from the person sitting next to you, or a friend
+* Find an open source project to try contribute to.
+</code></pre>
+
+<p>GitHub is all about social coding. Sharing and caring for code. If anything, we'd like to you 'get' that tonight.</p>
+
+<p>CompSoc would also like to start a list of projects worked on or started by CompSoc members. Please submit your project and username <a href="https://docs.google.com/forms/d/1NBLaxEsGvsLP6691tKV5YnswwU6w8XDuT5F7rjNBmLQ/viewform">here</a></p>
+
+<p>Any questions, red flag up and we might be able to help! There will be Pizza around 6-6.30.</p>
+
+<p>Good luck! </br>
+CompSoc</p>
+</body>
+</html>
